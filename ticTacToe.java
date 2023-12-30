@@ -1,5 +1,3 @@
-//Test driven development, create, test...
-
 import java.util.Scanner;
 
 class ticTacToe{
@@ -7,8 +5,6 @@ class ticTacToe{
 
         //create a board
         char[][] board = new char[3][3];
-
-
 
         // //get the user's names
         // Scanner keyboard = new Scanner(System.in);
@@ -23,7 +19,6 @@ class ticTacToe{
         char playerOne = 'x';
         char playerTwo = 'o';
 
-
         int turn = 0;
         char currentplayer = '-';
 
@@ -35,7 +30,8 @@ class ticTacToe{
             }
             if(turn %2 == 0){
                 currentplayer = playerOne;
-            }else{
+            }
+            else{
                 currentplayer = playerTwo;                
             }
         }
